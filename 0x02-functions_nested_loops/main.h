@@ -1,20 +1,6 @@
-#include "holberton.h"
-/**
- * main - Entry point
- * Description: prints '_putchar \n'
- * Return: Always 0 (success)
- */
-int main(void)
-{
-char str[] = "_putchar\n";
-int i = 0;
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-while (str[i] != '\0')
-        {
-                char c = str[i];
+int _putchar(char c)
 
-                _putchar(c);
-                i++;
-        }
-return (0);
-}
+#endif
