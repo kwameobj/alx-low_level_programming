@@ -8,14 +8,8 @@
  * Return: 0
  */
 
-int positive_or_negative(int i)
+void positive_or_negative (int i)
 {
-	int i;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-
 	if (i > 0)
 	{
 		printf("%d is positive\n", i);
