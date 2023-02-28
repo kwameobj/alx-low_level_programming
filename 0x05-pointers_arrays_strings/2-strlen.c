@@ -2,6 +2,7 @@
 
 /**
  * _strlen - returns the length of a string
+ * @s: string to be checked
  *
  * Description: a function that returns the length of a string.
  * Return: 0
