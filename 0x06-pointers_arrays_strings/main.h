@@ -1,4 +1,4 @@
-/* The functions I will add */
+/* The functions of this project */
 
 #ifndef _MAIN_H_
 #define _MAIN_H_
