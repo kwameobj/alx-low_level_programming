@@ -2,7 +2,7 @@
 
 /**
  * rot13 - encrypts a given string with ROT13 substituttion cipher
- * @s: given string 
+ * @s: given string
  * Return: char value
  */
 
