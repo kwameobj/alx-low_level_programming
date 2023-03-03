@@ -1,23 +1,20 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings
+ * _strncat - concatenates two strings together
  * @dest: first string
- * @src: second string
- * @n: number of elements in src array
- * Description: a function that puts two strings together
- * using 'n' bytes to modify src
- * Return: 0
-*/
+ * @src: secod string
+ * @n: number of bytes
+ * Return: contenated string
+ */
 
-char *_strncat(char *dest, char *src, int n);
-
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
 
 	while (dest[i] != '\0')
-	i++;
+		i++;
 
 	while (src[j] != src[n])
 	{
