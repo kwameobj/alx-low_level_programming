@@ -6,7 +6,7 @@
  * @src: second string
  * Description: a function that puts two strings together
  * eliminating the \0
- * Return: 0
+ * Return: dest
 */
 
 char *_strcat(char *dest, char *src)

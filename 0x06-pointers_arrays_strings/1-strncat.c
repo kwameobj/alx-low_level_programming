@@ -5,7 +5,7 @@
  * @dest: first string
  * @src: secod string
  * @n: number of bytes
- * Return: contenated string
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
