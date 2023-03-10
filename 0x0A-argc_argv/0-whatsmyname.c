@@ -2,9 +2,10 @@
 
 /**
  * main - entry point
- * 
+ * @argc: number of items on command line
+ * @argv: array of characters on command line
  * Description: a function to print program name
- * return: 0
+ * Return: 0
 */
 
 int main(__attribute__((unused))int argc, char *argv[])
