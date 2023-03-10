@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(int agrc, __attribute__((unused))char *agrv[])
+int main(int agrc, char *agrv[])
 {
 	printf("%d\n", agrc);
 	return (0);
