@@ -1,7 +1,7 @@
 /* The functions of this project*/
 
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c)
 
