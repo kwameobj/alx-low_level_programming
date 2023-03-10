@@ -15,14 +15,11 @@ int main(int argc, char *argv[])
 	int j = atoi(argv[2]);
 	int prod = i * j;
 
-	if (argc == 3)
-	{
-		printf("%d\n", prod);
-	}
-	else
+	if (argc != 3)
 	{
 		printf("Error\n");
-		return (1);
+                return (1);
 	}
+	printf("%d\n", prod);
 	return (0);
 }
