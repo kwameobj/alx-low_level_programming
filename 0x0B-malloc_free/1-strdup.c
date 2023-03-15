@@ -7,6 +7,7 @@
  * @str: given string array
  * Return: new string
 */
+
 char *_strdup(char *str)
 {
 	char *dupli_str;
@@ -25,7 +26,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	for (i = 0; str[i]; i++)
-		 dupli_str[i] = str[i];
+		dupli_str[i] = str[i];
 
 	dupli_str[j] = '\0';
 
