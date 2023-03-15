@@ -16,11 +16,11 @@ char *_strdup(char *str)
 
 	dupli_str = malloc(sizeof(char) * j + 1);
 
-	if (str == NULL || dupli_str == NULL)
-		return (NULL);
-
 	for (i = 0; str[i]; i++)
 		j++;
+
+	if (str == NULL || dupli_str == NULL)
+		return (NULL);
 
 	for (i = 0; str[i]; i++)
 		dupli_str[i] = str[i];
