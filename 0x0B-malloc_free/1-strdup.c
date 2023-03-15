@@ -19,7 +19,7 @@ char *_strdup(char *str)
 	if (str == NULL || dupli_str == NULL)
 		return (NULL);
 
-    for (i = 0; str[i]; i++)
+	for (i = 0; str[i]; i++)
 		j++;
 
 	for (i = 0; str[i]; i++)
