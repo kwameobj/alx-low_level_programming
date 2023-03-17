@@ -1,6 +1,6 @@
-#include "holberton.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 int find_len(char *str);
 char *create_xarray(int size);
@@ -14,6 +14,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
  *
  * Return: The length of the string.
  */
+
 int find_len(char *str)
 {
 	int len = 0;
