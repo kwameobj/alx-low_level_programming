@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _DYNLIB_
+#define _DYNLIB_
 
 #include <stdio.h>
 #include <stdlib.h>
