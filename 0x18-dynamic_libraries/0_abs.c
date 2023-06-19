@@ -1,18 +1,16 @@
 #include "main.h"
-
 /**
- * print_alphabet - prints alphabet
+ * _abs - main function
  *
- * Return: always 0;
+ * @n: integer to make absolute
+ * Return: int or int times negative
  *
  */
-void print_alphabet(void)
-{
-	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+int _abs(int n)
+{
+	if (n > 0)
+		return (n);
+	else
+		return (n * -1);
 }
