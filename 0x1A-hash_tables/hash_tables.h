@@ -1,5 +1,5 @@
+#ifndef _HASH_TABLES_H__
 #define _HASH_TABLES_H_
-#ifndef _HASH_TABLES_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -50,4 +50,5 @@ void hash_table_print(const hash_table_t *ht);
 
 void hash_table_delete(hash_table_t *ht);
 
-#endif
+#endif /*_HASH_TABLES_H_*/
+
