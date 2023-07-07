@@ -1,6 +1,9 @@
+#include "hash_tables.h"
+
 /**
  * hash_djb2 - implements the djb2 algorithm
  * @str: a pointer to a string
+ * Return: hash
  */
 
 unsigned long int hash_djb2(const unsigned char *str)
